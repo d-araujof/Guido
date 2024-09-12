@@ -340,7 +340,7 @@ p {
         justify-content: space-between; /* Centraliza o grid */
         gap: 0.5rem !important; /* Força o gap a ser menor */
         padding: 0;
-        margin: 5rem;
+        margin: 0 auto 0 auto;
     }
 
     .card-equipe {
