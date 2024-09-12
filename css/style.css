@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #000000;
+    --azul-escuro: #4a90e2;
+    --azul-claro: #88c6ee;
+    --branco: #ffffff;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 0.90rem;
+}
+
+
+
+/* NAVBAR */
+.navbar {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+.container-fluid {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--branco);
+}
+
+.custom-navbar {
+    border-bottom: 2px solid #88C6EE;
+    margin-bottom: 4rem;
+}
+
+.pitstop-logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: var(--azul-escuro);
+    font-size: 1.75rem;
+}
+
+.menu-item {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--preto);
+    font-size: 0.90rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--azul-claro);
+}
+
+.nav-link.active {
+    color: var(--azul-claro);
+}
+
+
+
+/* SOBRE */
+.sobre {
+    background-color: var(--azul-escuro);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+.sobre-div {
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+    color: var(--branco);
+}
+
+@media (max-width: 992px) {
+    .sobre-div {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+
+
+/* ARMA */
+.arma {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.arma-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.arma-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.arma-video video {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--azul-claro);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.arma h1 {
+    font-weight: 600;
+    color: var(--azul-escuro);
+}
+
+.arma h2 {
+    color: var(--azul-claro);
+}
+
+@media (max-width: 992px) {
+    .arma-video {
+        justify-content: flex-end;
+    }
+    
+    .arma {
+        grid-template-columns: 1fr;
+    }
+
+    .arma-video {
+        margin: auto;
+        width: 50%;
+    }
+}
+
+
+
+/* FUNCIONALIDADES */
+.funcionalidades {
+    margin-bottom: 5rem;
+}
+
+.funcionalidades h1 {
+    font-weight: 600;
+    color: var(--azul-escuro);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card {
+    border: 2px solid var(--azul-claro);
+    border-radius: 10px;
+    width: 15rem;
+}
+
+.card-title{
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 0.90rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+      flex-direction: column; 
+      align-items: center;
+    }
+}
+
+
+
+/* HARDWARE */
+.hardware{
+    margin: 0 2rem 5rem 2rem;
+}
+
+.hardware h1 {
+    font-weight: 600;
+    color: var(--azul-escuro);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.accordion-body {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.accordion-body img {
+    width: 50%; 
+    height: auto; 
+    max-width: 300px; 
+}
+
+
+
+/* GALERIA */
+.carrossel {
+    margin: 0 2rem 5rem 2rem;
+}
+
+.carrossel h1 {
+    color: var(--azul-escuro);
+    text-align: center;
+    margin: 0; /* Remove a margem padrão do título */
+    font-weight: 600;
+}
+
+.carrossel-titulo {
+    display: flex; /* Utiliza flexbox para o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    gap: 10rem; /* Espaço de 5px entre o título e o botão */
+    margin-bottom: 1rem; /* Espaçamento abaixo do título */
+}
+
+.btn-arredondado {
+    display: inline-block;
+    margin-left: 40%;
+    padding: 8px 15px; /* Reduz o padding lateral para diminuir o comprimento */
+    border-radius: 30px; /* Torna o botão mais arredondado */
+    border: 2px solid var(--azul-claro); /* Adiciona a borda */
+    background-color: #fff; /* Define o fundo do botão */
+    color: #000; /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    text-align: center;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.btn-arredondado:hover {
+    background-color: var(--azul-claro);
+    color: var(--branco); /* Muda a cor do texto ao passar o mouse */
+}
+
+.carousel{
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* EQUIPE */
+.equipe {
+    margin: 0 2rem 5rem 2rem;
+}
+
+.equipe h1 {
+    font-weight: 600;
+    color: var(--azul-escuro);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Gap para telas maiores */
+}
+
+.card {
+    border: 2px solid var(--azul-claro);
+    border-radius: 10px;
+    width: 15rem;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 0.90rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .card-min {
+        display: grid; /* Muda para grid */
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+        justify-items: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        justify-content: space-between; /* Centraliza o grid */
+        gap: 0.5rem !important; /* Força o gap a ser menor */
+        padding: 0;
+        margin: 5rem;
+    }
+
+    .card-equipe {
+        padding: 0;
+        margin: 0;
+        width: 10rem; /* Ajuste de largura dos cards para telas menores */
+    }
+}
