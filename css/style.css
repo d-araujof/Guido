@@ -656,6 +656,11 @@ main {
     border-radius: 4px; /* Arredonda as bordas dos campos */
 }
 
+.contact-medium {
+    grid-template-columns: 1fr; /* Muda para uma única coluna quando a tela é pequena */
+    gap: 2rem; /* Mantém o espaço entre o formulário e a imagem (agora não será necessário, mas pode ser mantido por estética) */
+}
+
 @media (max-width: 992px) {
     .contact-section {
         grid-template-columns: 1fr; /* Muda para uma única coluna quando a tela é pequena */
