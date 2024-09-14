@@ -164,14 +164,14 @@ p {
     padding: 0;
     margin: 0;
     width: 100%; /* Garante que o vídeo ocupe todo o espaço disponível */
-    max-width: 600px; /* Limita a largura máxima do vídeo */
+    max-width: 40rem; /* Limita a largura máxima do vídeo */
 }
 
 .arma-video iframe {
     width: 100%;
-    height: auto;
-    border: 2px solid var(--azul-claro);
-    border-radius: 10px;
+    height: 20rem;
+    border: 3px solid var(--azul-claro);
+    border-radius: 1rem;
     box-sizing: border-box;
 }
 
