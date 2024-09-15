@@ -546,7 +546,7 @@ footer {
 }
 
 .galeria-item {
-    border: 2px solid #ddd;
+    border: 2px solid var(--azul-claro);
     overflow: hidden;
     border-radius: 8px;
     transition: transform 0.3s ease;
