@@ -44,9 +44,14 @@ p {
     font-weight: 400;
 }
 
+section {
+    scroll-margin-top: 5rem;
+}
 
+.margin-bottom{
+    margin-bottom: 5rem;
+}
 
-/* NAVBAR */
 .navbar {
     margin-left: 0;
     margin-right: 0;
@@ -107,9 +112,6 @@ p {
     color: var(--azul-claro);
 }
 
-
-
-/* SOBRE */
 .sobre {
     background-color: var(--azul-escuro);
     padding-top: 2rem;
@@ -132,9 +134,6 @@ p {
     }
 }
 
-
-
-/* ARMA */
 .arma {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -154,7 +153,7 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    max-width: 600px; /* Limita a largura máxima do texto */
+    max-width: 600px; 
 }
 
 .arma-video {
@@ -163,8 +162,8 @@ p {
     align-items: center;
     padding: 0;
     margin: 0;
-    width: 100%; /* Garante que o vídeo ocupe todo o espaço disponível */
-    max-width: 40rem; /* Limita a largura máxima do vídeo */
+    width: 100%; 
+    max-width: 40rem;
 }
 
 .arma-video iframe {
@@ -203,7 +202,7 @@ p {
 
 @media (max-width: 768px) {
     .arma-div {
-        padding: 0 1rem; /* Ajusta o espaçamento em telas menores */
+        padding: 0 1rem;
     }
 
     .arma-video {
@@ -215,9 +214,6 @@ p {
     }
 }
 
-
-
-/* FUNCIONALIDADES */
 .funcionalidades {
     margin-bottom: 5rem;
 }
@@ -262,9 +258,6 @@ p {
     }
 }
 
-
-
-/* HARDWARE */
 .hardware{
     margin: 0 2rem 5rem 2rem;
 }
@@ -298,9 +291,6 @@ p {
     padding: 1rem;
 }
 
-
-
-/* GALERIA */
 .carrossel {
     margin: 0 2rem 5rem 2rem;
     display: flex;
@@ -348,9 +338,6 @@ p {
     margin-top: 1rem;
 }
 
-
-
-/* EQUIPE */
 .equipe {
     margin: 0 2rem 5rem 2rem;
 }
@@ -438,9 +425,6 @@ p {
     }
 }
 
-
-
-/* FOOTER */
 footer {
     background-color: #3E86E0;
     color: white;
@@ -553,10 +537,7 @@ footer {
     }
 }
 
-
-
-/* GALERIA */
-.galeria-grid {
+.galeria {
     display: grid;
     gap: 20px;
     padding: 20px;
@@ -572,7 +553,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1/1; /* Mantém os itens quadrados */
+    aspect-ratio: 1/1; 
 }
 
 .galeria-item:hover {
@@ -582,11 +563,10 @@ footer {
 .galeria-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta a imagem, cortando o excesso */
-    object-position: center; /* Centraliza a imagem no corte */
+    object-fit: cover; 
+    object-position: center; 
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .galeria-grid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -599,9 +579,6 @@ footer {
     }
 }
 
-
-
-/* CONTATO */
 .header-contato{
     margin-bottom: 5rem;
 }
@@ -639,8 +616,8 @@ footer {
 
 .info-img {
     margin-top: 5px;
-    width: 40%; /* Define a largura da imagem para 50% do tamanho original */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 40%; 
+    height: auto; 
 }
 
 @media (max-width: 992px) {
@@ -669,37 +646,34 @@ footer {
     }
 }
 
-
-
-/* CONTÊINER DO FORMULÁRIO E LOGO */
 .contact-section {
-    display: grid; /* Usa Grid para layout */
-    grid-template-columns: 1fr 1fr; /* Define duas colunas iguais */
-    align-items: center; /* Alinha verticalmente no centro */
-    justify-items: center; /* Centraliza os itens horizontalmente nas colunas */
-    gap: 1rem; /* Espaço entre o formulário e a imagem */
-    max-width: 60rem; /* Define uma largura máxima para o container */
-    margin: 0 auto 5rem auto; /* Centraliza o container na página */
-    box-sizing: border-box; /* Inclui padding e borda na largura total */
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    justify-items: center; 
+    gap: 1rem;
+    max-width: 60rem; 
+    margin: 0 auto 5rem auto; 
+    box-sizing: border-box;
 }
 
 .forms {
-    grid-column: 1; /* Faz o formulário ocupar a primeira coluna */
+    grid-column: 1; 
 }
 
 .forms-logo {
-    grid-column: 2; /* Faz a imagem ocupar a segunda coluna */
-    display: flex; /* Usa flexbox para garantir que a imagem ocupe o espaço disponível */
-    justify-content: center; /* Centraliza a imagem horizontalmente */
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
 }
 
 .forms-logo img {
-    max-width: 80%; /* Faz a imagem ajustar-se ao tamanho do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 80%; 
+    height: auto; 
 }
 
 .form-group{
-    margin-bottom: 0.5rem; /* Espaçamento inferior entre os grupos de formulário */
+    margin-bottom: 0.5rem; 
 }
 
 .row{
@@ -707,34 +681,31 @@ footer {
 }
 
 .form-control{
-    border: 1px solid var(--azul-claro); /* Define a borda dos campos */
-    border-radius: 4px; /* Arredonda as bordas dos campos */
+    border: 1px solid var(--azul-claro);
+    border-radius: 4px;
 }
 
 .contact-medium {
-    grid-template-columns: 1fr; /* Muda para uma única coluna quando a tela é pequena */
-    gap: 2rem; /* Mantém o espaço entre o formulário e a imagem (agora não será necessário, mas pode ser mantido por estética) */
+    grid-template-columns: 1fr; 
+    gap: 2rem; 
 }
 
 @media (max-width: 992px) {
     .contact-section {
-        grid-template-columns: 1fr; /* Muda para uma única coluna quando a tela é pequena */
-        gap: 2rem; /* Mantém o espaço entre o formulário e a imagem (agora não será necessário, mas pode ser mantido por estética) */
+        grid-template-columns: 1fr;
+        gap: 2rem; 
     }
 
     .forms {
-        grid-column: 1; /* Faz o formulário ocupar a coluna única */
-        justify-self: center; /* Centraliza o formulário horizontalmente */
+        grid-column: 1; 
+        justify-self: center; 
     }
 
     .forms-logo {
-        display: none; /* Esconde o contêiner da imagem */
+        display: none; 
     }
 }
 
-
-
-/* EVENTOS */
 .arma-img {
     display: flex;
     justify-content: center;
@@ -763,9 +734,6 @@ footer {
     }
 }
 
-
-
-/* PLANO */
 .plano{
     margin-bottom: 5rem;
 }
@@ -780,18 +748,4 @@ footer {
 .plano-div h2 {
     color: var(--azul-claro);
     text-align: center;
-}
-
-
-
-/* SECTION FOOTER*/
-section {
-    scroll-margin-top: 5rem; /* Ajuste esse valor conforme necessário */
-}
-
-
-
-/* MARKETING ESTATÍSTICO E VENDAS */
-.margin-bottom{
-    margin-bottom: 5rem;
 }
