@@ -29,6 +29,7 @@ Esse projeto foi desenvolvido com as seguintes ferramentas:
 - CSS3
 - JavaScript
 - Bootstrap
+- Figma
 - Canva
 
 ---
