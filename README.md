@@ -1,6 +1,6 @@
-![img](**)
+![img](https://github.com/d-araujof/Portifolio/blob/6ddee9e661790a78a52b3a8aa6c5fde242e5a4c6/img/projetos/robocup.png)
 
-Você pode acessá-lo com este [link.](https://github.com/d-araujof/Portifolio/blob/6ddee9e661790a78a52b3a8aa6c5fde242e5a4c6/img/projetos/robocup.png)
+Você pode acessá-lo com este [link.](https://d-araujof.github.io/Guido/)
 
 ---
 
@@ -10,12 +10,12 @@ Site dedicado ao projeto da RoboCup Fiap
 
 Grupo:
 
-- Carolina Pacífico 555000
-- Felipe Teixeira 556100
-- Jaime Trauzola 555635
-- Mª Eduarda Fernandes 554593
-- Nickolas Rodrigues 555653
-- Victor Andrade 555902
+- Carolina Pacífico 
+- Felipe Teixeira 
+- Jaime Trauzola 
+- Mª Eduarda Fernandes 
+- Nickolas Rodrigues 
+- Victor Andrade 
 
 Você pode acessá-lo com este [link.](https://d-araujof.github.io/Guido/)
 
