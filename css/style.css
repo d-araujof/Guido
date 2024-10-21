@@ -12,7 +12,7 @@
 }
 
 body {
-    margin-top: 4rem; 
+    margin-top: 4rem;
 }
 
 header {
@@ -48,7 +48,7 @@ section {
     scroll-margin-top: 5rem;
 }
 
-.margin-bottom{
+.margin-bottom {
     margin-bottom: 5rem;
 }
 
@@ -72,12 +72,12 @@ section {
 
 .custom-navbar {
     border-bottom: 2px solid var(--azul-claro);
-    margin-bottom: 4rem; 
-    position: fixed; 
+    margin-bottom: 4rem;
+    position: fixed;
     top: 0;
-    left: 0; 
-    width: 100%; 
-    z-index: 9999; 
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 .pitstop-logo {
@@ -135,7 +135,7 @@ section {
     flex-direction: column;
     justify-content: center;
     width: 80%;
-    max-width: 600px; 
+    max-width: 600px;
 }
 
 .arma-video {
@@ -144,7 +144,7 @@ section {
     align-items: center;
     padding: 0;
     margin: 0;
-    width: 100%; 
+    width: 100%;
     max-width: 40rem;
 }
 
@@ -156,7 +156,7 @@ section {
     box-sizing: border-box;
 }
 
-.arma h1{
+.arma h1 {
     text-align: justify;
 }
 
@@ -227,22 +227,22 @@ section {
     width: 30rem;
 }
 
-.card-title{
+.card-title {
     font-size: 1.1rem;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     text-align: center;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
 }
 
 @media (max-width: 768px) {
     .card-container {
         display: flex;
-        flex-direction: column; 
-        justify-content: center; 
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         gap: 1rem;
     }
@@ -250,7 +250,7 @@ section {
 
 
 
-.card-text-invsest{
+.card-text-invsest {
     text-align: center;
     margin: 0;
 }
@@ -271,7 +271,7 @@ section {
 
 
 
-.hardware{
+.hardware {
     margin: 0 2rem 5rem 2rem;
 }
 
@@ -285,32 +285,32 @@ section {
 .accordion-container {
     display: flex;
     justify-content: center;
-    gap: 1rem; 
-    flex-wrap: wrap; 
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .accordion-item-hardware {
-    width: 700px;
+    width: 600px;
 }
 
 .accordion-body {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .accordion-body img {
-    width: 50%; 
-    height: auto; 
-    max-width: 300px; 
+    width: 50%;
+    height: auto;
+    max-width: 300px;
 }
 
-.accordion-left{
+.accordion-left {
     align-items: left;
     padding: 0 1rem 1rem 3rem;
 }
 
-.accordion-titulo{
+.accordion-titulo {
     align-items: left;
     padding: 1rem;
 }
@@ -326,9 +326,9 @@ section {
 .carrossel {
     margin: 0 2rem 5rem 2rem;
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .carrossel h1 {
@@ -366,7 +366,7 @@ section {
 .carrossel-button {
     display: flex;
     justify-content: center;
-    width: 100%; 
+    width: 100%;
     margin-top: 1rem;
 }
 
@@ -383,31 +383,31 @@ section {
     margin-bottom: 2rem;
 }
 
-.equipe p{
+.equipe p {
     text-align: center;
 }
 
 .card-equipe {
-    width: 10rem; 
+    width: 10rem;
     height: 18rem;
-    overflow: hidden; /* Corta qualquer conteúdo que exceda a altura */
+    overflow: hidden;
 }
 
 .card-equipe img {
     background-color: var(--azul-claro);
     width: 100%;
-    height: 10rem; /* Defina uma altura fixa para a imagem */
-    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+    height: 10rem;
+    object-fit: cover;
 }
 
 @media (max-width: 992px) {
     .card-min {
-        display: grid; 
-        grid-template-columns: repeat(3, 1fr); 
-        justify-items: center; 
-        align-items: center; 
-        justify-content: space-between; 
-        gap: 0.5rem !important; 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem !important;
         padding: 0;
         margin: 0 auto 0 auto;
     }
@@ -415,18 +415,18 @@ section {
     .card-equipe {
         padding: 0;
         margin: 0;
-        width: 10rem; 
+        width: 10rem;
     }
 }
 
 @media (max-width: 768px) {
     .card-min {
-        display: grid; 
-        grid-template-columns: repeat(2, 1fr); 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
-        align-items: center; 
-        justify-content: space-between; 
-        gap: 0.5rem !important; 
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem !important;
         padding: 0;
         margin: 0 auto 0 auto;
     }
@@ -516,7 +516,7 @@ footer {
     text-align: right;
 }
 
-.footer-baixo{
+.footer-baixo {
     color: var(--branco);
     font-size: 1.1rem;
     font-family: 'Lato', sans-serif;
@@ -529,7 +529,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .footer-left, .footer-links {
+    .footer-left,
+    .footer-links {
         grid-column: 1 / -1;
         text-align: center;
     }
@@ -547,7 +548,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .footer-bottom .left, .footer-bottom .right {
+    .footer-bottom .left,
+    .footer-bottom .right {
         text-align: center;
     }
 }
@@ -569,7 +571,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1/1; 
+    aspect-ratio: 1/1;
 }
 
 .galeria-item:hover {
@@ -579,8 +581,8 @@ footer {
 .galeria-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-    object-position: center; 
+    object-fit: cover;
+    object-position: center;
 }
 
 @media (max-width: 768px) {
@@ -596,15 +598,15 @@ footer {
 }
 
 
-.header-contato{
+.header-contato {
     margin-bottom: 5rem;
 }
 
-.contato{
+.contato {
     margin-bottom: 5rem;
 }
 
-.accordion-contato{
+.accordion-contato {
     margin: 0 2rem 0 2rem;
 }
 
@@ -620,9 +622,14 @@ footer {
 }
 
 .info-card {
-    padding: 0;
-    margin: 0;
-    width: 12rem; 
+    width: 15rem;
+    border: 2px solid var(--azul-claro);
+    border-radius: 10px;
+    height: auto;
+}
+
+.info-card p{
+    text-align: center;
 }
 
 .card-img-top {
@@ -633,18 +640,18 @@ footer {
 
 .info-img {
     margin-top: 5px;
-    width: 40%; 
-    height: auto; 
+    max-width: 80px;
+    height: auto;
 }
 
 @media (max-width: 992px) {
     .info-min {
-        display: grid; 
-        grid-template-columns: repeat(3, 1fr); 
-        justify-items: center; 
-        align-items: center; 
-        justify-content: space-between; 
-        gap: 1rem !important; 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem !important;
         padding: 0;
         margin: 0 auto 0 auto;
     }
@@ -652,12 +659,12 @@ footer {
 
 @media (max-width: 768px) {
     .info-min {
-        display: grid; 
-        grid-template-columns: 1fr; 
+        display: grid;
+        grid-template-columns: 1fr;
         justify-items: center;
-        align-items: center; 
-        justify-content: space-between; 
-        gap: 1rem !important; 
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem !important;
         padding: 0;
         margin: 0 auto 0 auto;
     }
@@ -665,17 +672,17 @@ footer {
 
 .contact-section {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    align-items: center; 
-    justify-items: center; 
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
     gap: 1rem;
-    max-width: 60rem; 
-    margin: 0 auto 5rem auto; 
+    max-width: 60rem;
+    margin: 0 auto 5rem auto;
     box-sizing: border-box;
 }
 
 .forms {
-    grid-column: 1; 
+    grid-column: 1;
 }
 
 .forms-logo {
@@ -685,41 +692,41 @@ footer {
 }
 
 .forms-logo img {
-    max-width: 80%; 
-    height: auto; 
+    max-width: 80%;
+    height: auto;
 }
 
-.form-group{
-    margin-bottom: 0.5rem; 
-}
-
-.row{
+.form-group {
     margin-bottom: 0.5rem;
 }
 
-.form-control{
+.row {
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
     border: 1px solid var(--azul-claro);
     border-radius: 4px;
 }
 
 .contact-medium {
-    grid-template-columns: 1fr; 
-    gap: 2rem; 
+    grid-template-columns: 1fr;
+    gap: 2rem;
 }
 
 @media (max-width: 992px) {
     .contact-section {
         grid-template-columns: 1fr;
-        gap: 2rem; 
+        gap: 2rem;
     }
 
     .forms {
-        grid-column: 1; 
-        justify-self: center; 
+        grid-column: 1;
+        justify-self: center;
     }
 
     .forms-logo {
-        display: none; 
+        display: none;
     }
 }
 
@@ -751,7 +758,7 @@ footer {
     }
 }
 
-.plano{
+.plano {
     margin-bottom: 5rem;
 }
 
@@ -770,12 +777,12 @@ footer {
 .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    height: 100%; 
+    height: 100%;
 }
 
-.card-a{
+.card-a {
     text-decoration: none;
     color: var(--preto);
     font-size: 0.90rem;
@@ -783,7 +790,7 @@ footer {
     font-weight: 400;
 }
 
-.card-a:hover{
+.card-a:hover {
     text-decoration: none;
     color: var(--azul-claro);
 }
@@ -792,7 +799,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     text-align: center;
     height: 100vh;
 }
@@ -822,7 +829,7 @@ footer {
     box-sizing: border-box;
 }
 
-.construcao h1{
+.construcao h1 {
     text-align: justify;
 }
 
@@ -844,11 +851,11 @@ footer {
     margin-bottom: 5rem;
 }
 
-.kids h1{
+.kids h1 {
     color: var(--azul-escuro);
 }
 
-.kids h2{
+.kids h2 {
     color: var(--azul-claro);
 }
 
@@ -858,7 +865,7 @@ footer {
     text-align: center;
 }
 
-.kids-div p{
+.kids-div p {
     margin-bottom: 2rem;
 }
 
@@ -874,22 +881,22 @@ footer {
     width: 30rem;
 }
 
-.card-title{
+.card-title {
     font-size: 1.1rem;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     text-align: center;
 }
 
-.card-text{
+.card-text {
     text-align: justify;
 }
 
 @media (max-width: 992px) {
     .card-container {
         display: flex;
-        flex-direction: column; 
-        justify-content: center; 
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         gap: 1rem;
     }
